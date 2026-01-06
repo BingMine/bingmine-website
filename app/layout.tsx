@@ -17,6 +17,11 @@ const greaterTheory = localFont({
 export const metadata: Metadata = {
   title: "BingMine",
   description: "Invest in Your Favorite Creators",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
